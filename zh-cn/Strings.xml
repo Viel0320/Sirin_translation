@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="gdprConsent">《一般数据保护条例》同意书</string>
+
+  <string name="app_name">西琳</string>
+  <string name="appTitle">西琳 有声书阅读器</string>
+  <string name="metadataServiceChannelName">元数据服务</string>
+  <string name="downloadServiceChannelName">下载服务</string>
+  <string name="playerServiceChannelName">有声书阅读器服务</string>
+  
+  <string name="agreeCopyright">我同意不将“西琳”用于侵犯版权的行为</string>
+  <string name="agreeTos">阅读并同意服务协议</string>
+  <string name="accept">接受</string>
+  <string name="quit">退出</string>
+  <string name="allow">允许</string>  
+  <string name="doNotAskAgain">不再询问</string>
+  <string name="allFilesAccess">所有文件管理权限申请</string>
+  <string name="allFilesAccessMessage">自Android 11以后, 应用对设备文件的访问受到系统限制. 某些格式的媒体文件可能无法显示.\n\n为此，建议您允许本应用访问和管理所有文件</string>
+  <string name="needStoragePermissions">西琳需要授权以访问媒体文件</string>
+  <string name="needNotificationPermission">西琳需要授权以发送通知</string>
+  <string name="neverAskAgainStorage">您先前已拒绝本应用访问所有文件权限. 请在应用设置中重新进行授权.</string>
+  <string name="neverAskAgainPhysicalActivity">您先前已拒绝本应用访问“身体活动”权限. 请在应用设置中重新进行授权.</string>
+  <string name="appSettings">应用设置</string>
+  <string name="accessToPathDenied">文件路径被拒绝访问</string>
+  <string name="audiobooksAdded">{0} 本书籍已经添加完毕！</string>
+  <string name="noBooksFound">没有找到书籍</string>
+
+  <string name="sponsored">赞助</string>
+  <string name="search_hint">在书库中搜索</string>
+  <string name="library">书库</string>
+  <string name="onDevice">在设备中</string>
+  <string name="useWiFi">仅在WIFI下下载</string>
+  <string name="storage">存储</string>
+  <string name="about">关于</string>
+  <string name="help">帮助</string>
+  <string name="acknowledgements">致谢</string>
+  <string name="termsOfService">服务协议</string>
+  <string name="privacyPolicy">隐私政策</string>
+  <string name="openSourceLicenses">开源许可</string>
+  <string name="favorites">收藏</string>
+  <string-array name="sizeUnits">
+    <item>B</item>
+    <item>KB</item>
+    <item>MB</item>
+    <item>GB</item>
+    <item>TB</item>
+    <item>PB</item>
+    <item>EB</item>
+    <item>ZB</item>
+    <item>YB</item>
+  </string-array>
+  <plurals name="secondPlurals">
+    <item quantity="zero">秒</item>
+    <item quantity="one">%d 秒</item>
+    <item quantity="other">%d 秒</item>
+  </plurals>
+  <string name="secondShort">s</string>
+  <string name="recents">最近阅读</string>
+  <string name="misc">杂项</string>
+  <string name="unknown">未知</string>
+  <string name="scan">扫描</string>
+  <string name="foldersToScan">需要扫描的文件夹</string>
+  <string name="scanFolder">扫描文件夹</string>
+  <string name="readingSpeed">阅读速度</string>
+  <string name="downloads">下载</string>
+  <string name="sdCard">SD卡</string>
+  <string name="audiobooks">有声书籍</string>
+  <string name="freePattern">/{0}</string>
+  <string name="newAudiobook">新的有声书</string>
+  <string name="downloadTorrent">下载种子</string>
+  <string name="mainWelcomeTitle">如何添加书籍？</string>
+  <string name="mainWelcomeMessage1">扫描文件目录，自动导入有声书籍</string>
+  <string name="mainWelcomeMessage2">手动添加单本有声书</string>
+  <string name="mainWelcomeMessage3">下载种子</string>
+
+  <string name="sleepTimer">睡眠定时器</string>
+  <string name="none">无</string>
+  <string name="chapterEnd">播放至章节结束</string>
+  <string name="hoursShort">h</string>
+  <string name="minutesShort">min</string>
+  <string name="remember">记住选择</string>
+  
+  <string name="search">查找</string>
+  <string name="chapters">章节</string>
+  <string name="notes">书签</string>
+  <string name="noteAdded">已添加书签</string>
+  <string name="notesInfoMessage">长按封面以添加书签</string>
+  <string name="equalizer">均衡器</string>
+  <string name="amplifier">音量放大器</string>
+  <string name="audioOutputNotSupported">您的设备不支持 Audio output (VLC) OpenSL ES.</string>
+  <string name="tips">操作提示</string>
+  <string name="addBookmark">添加书签</string>
+
+  <string name="notStartedStatus">未开始</string>
+  <string name="inProgressStatus">进行中</string>
+  <string name="finishedStatus">已完成</string>
+  <string name="markAs">标记为...</string>
+  <string name="mergeBooks">合并书籍</string>
+  <string name="splitBook">拆分书籍</string>
+  <string name="xSelected">已选择{0}本书籍</string>
+  <string name="save">保存</string> 
+  <string name="create">新建</string>
+  <string name="edit">编辑</string>
+  <string name="sendFiles">发送文件</string>
+  <string name="delete">删除</string>
+  <string name="deleteFile">删除文件</string>
+  <string name="confirmDeleteTitle">确定删除</string>
+  <string name="confirmDeleteFileTitle">删除文件</string>
+  <string name="confirmDeleteMessage">确定删除该电子书籍及其本地文件</string>
+  <string name="confirmDeleteFileMessage">确定删除该电子书籍的本地文件</string>
+  <string name="confirmMergeBooksMessage">所选的 ({0}) 本书籍将会被合并为一本，是否继续？</string>
+  <string name="confirmSplitBookMessage">所选 ({0}) 个章节将会被移动至新建的书籍之中，是否继续？</string>
+  
+  <string name="title">标题</string>
+  <string name="series">系列</string>
+  <string name="seriesPlural">系列</string>
+  <string name="author">作者</string>
+  <string name="authors">作者</string>
+  <string name="genres">流派</string>
+  <string name="narratedBy">讲述人</string>
+  <string name="date">时间</string>
+  <string name="description">简介</string>
+  <string name="note">笔记</string>
+  <string name="path">路径</string>
+
+  <string name="authorPublisher">作者/出版社</string>
+  <string name="addToSeries">添加到系列</string>
+  <string name="moveToSeries">移动到系列</string>
+  <string name="removeFromSeries">从系列移除</string>
+  <string name="editSeries">编辑系列信息</string>
+  <string name="createSeries">新增系列</string>
+  <string name="newSeries">新系列</string>
+  <string name="audiobookIsAdded">有声书籍已经添加</string>
+  <string name="deleteSeriesConfirmTitle">确定删除所选系列？</string>
+  <string name="deleteAudiobookConfirmTitle">确定删除所选书籍？</string>
+  <string name="deleteAudiobooksConfirmTitle">确定删除所选书籍？</string>
+
+  <string name="cantOpenUrl">无法打开链接</string>
+  <string name="defaultErrorTitle">噢！</string>
+  <string name="defaultErrorMessage">看来有什么事情出了错</string>
+  <string name="cancel">取消</string>
+  <string name="continueAction">继续</string>
+  <string name="tryAgain">重试</string>
+  <string name="yes">是</string>
+  <string name="ok">好的</string>
+  
+  <string name="processingFiles">正在进行文件处理</string>
+  <string name="preparing">准备中</string>
+  <string name="saving">正在保存</string>
+  <string name="progressCountPattern">{0} of {1}</string>
+  
+  <string name="filesDeleted">书籍文件已从本设备删除</string>
+  <string name="audiobookDeleted">书籍已删除</string>
+  <string name="checkingFiles">正在检查文件</string>
+  <string name="downloadingMetadata">正在下载元数据</string>
+  <string name="downloading">下载中</string>
+  <string name="waitingForWiFi">等待WIFI连接</string>
+  <string name="finished">已完成</string>
+  <string name="storageFull">存储空间不足</string>
+  <string name="paused">已暂停</string>
+  <string name="downloadStarted">下载已开始</string>
+  <string name="addTorrentFile">添加种子文件</string>
+  <string name="removeFiles">移除文件</string>
+  <string name="confirmDeleteTorrentTitle">删除种子</string>
+  <string name="confirmDeleteTorrentMessage">确定停止下载并移除种子文件？</string>
+  <string name="cancelDownloadTitle">取消下载</string>
+  <string name="cancelDownloadMessage">确定取消下载？</string>
+  <string name="cantFindTorrentFile">抱歉，找不到种子文件</string>
+  <string name="torrentFileIsCorrupt">种子文件已损坏或者格式不支持</string>
+  <string name="waitingForTorrentMetadata">等待元数据</string>
+
+  <string name="scanningStarted">扫描已开始</string>
+  <string name="scanning">扫描中</string>
+  <string name="metadataEditorWelcomeMessage">请以单本书籍的形式添加音频文件</string>
+  <string name="addAudioFiles">添加音频文件</string>
+  <string name="cover">封面</string>
+  <string name="tracks">音轨</string>
+  <string name="sorting">排序</string>
+  <string name="view">视图样式</string>
+  <string name="home">主页</string>
+  <string name="grid">网格</string>
+  <string name="list">列表</string>
+  <string name="showHeaders">显示标头</string>
+  <string name="findCover">查找封面</string>
+  <string name="allFilesAreInPlace">所有文件都已就绪</string>
+  <string name="movedFilesSearch">搜索移动后的文件</string>
+  <string name="noAudioFilesFound">未找到音频文件</string>
+  <string name="tooManyAudioFilesFound">{0} 个音频文件将被处理，这或许将花费几分钟的时间，是否继续？</string>
+  <string name="torrentNoAudioFiles">这个种子中不包含音频文件</string>
+  <string name="audioFilesSetLocationMessage">是否将音频文件保存到其他位置？</string>
+  <string name="searchAudiobookOnDeviceTitle">在设备中查找文件</string>
+  <string name="searchAudiobookOnDeviceMessage">西琳能够在设备中查找到被移动至其他目录的书籍音频文件</string>
+  <string name="selectFolderToSearch">选择用于查找的目录</string>
+  <string name="deleteAudiobooksIfFilesAreMissing">删除音频文件丢失的书籍</string>
+  <string name="scanFoldersOnApplicationStartup">在程序启动时扫描文件</string>
+  <string-array name="trackSortOptions">
+    <item>音轨编号</item>
+    <item>文件名称</item>
+    <item>书籍标题</item>
+  </string-array>
+  <string name="saveToLibrary">保存书籍至书库？</string>
+  <string name="saveChanges">保存更改？</string>
+  <string name="noFilesFound">没有找到文件</string>
+  <string name="couldNotMatchFiles">音频文件不匹配</string>
+  <string name="backup">备份</string>
+  <string name="backupScreenMessage">创建您书库的备份，您可以在新设备（或者重装app后）进行恢复。备份内容包含笔记、有声书封面图片，但不包含原始的有声书文件</string>
+  <string name="restore">恢复</string>
+  <string name="restoreComplete">恢复完成</string>
+  <string name="unpacking">解压中</string>
+  <string name="send">发送</string>
+  <string name="sendBackupFileMessage">请将备份文件妥善保存</string>
+  <string name="translate">翻译</string>
+  <string name="translateMessage">如果您有意帮忙将本应用翻译成您的语言，请通过电子邮件联系我</string>
+  <string name="recommend">推荐</string>
+  <string name="recommendToFriends">推荐给朋友</string>
+  <string name="recommendMessage">如果您喜欢本应用，也请推荐给您的朋友！</string>
+  <string name="recommendTitle">向你推荐</string>
+  
+  <string name="metadataWebSearchSubtitle">选择一本书籍，西琳会自动读取其标题、作者、封面及其他信息</string>
+  <string name="addDirectorySubtitle">选择您存放书籍的文件夹</string>
+  <string name="newAudiobookSubtitle">选择您存放书籍的文件夹</string>
+  
+  <string name="billingFlowErrorMessage">请检查您的网络连接，确保play商店已更新至最新版本，且已登录您的购买账户</string>
+  <string name="purchasePendingWarningMessage">您的购买正在处理中，请等待处理完成</string>
+
+  <string name="settings">设置</string>
+  <string name="player">播放器</string>
+  <string name="skipBackwardAmount">快退秒数</string>
+  <string name="skipForwardAmount">快进秒数</string>
+  <string name="skipAfterPauseAmount">暂停时回溯秒数</string>
+  <string name="showCoverOnLockScreen">在锁屏展示封面</string>
+  <string name="stopPlaybackOnClose">退出时停止播放</string>
+  <string name="keepPlaybackServiceActiveOnPause">暂停时保持播放服务处于活跃状态</string>
+  <string name="debugging">调试</string>
+  <string name="enableFileLogging">启用文件日志</string>
+  <string name="sendLogs">发送日志</string>
+  <string name="downloadToSdCard">下载至SD卡</string>
+  <string name="transferringFilesToSdCard">移动至SD卡</string>
+  <string name="transferringFilesToInternalStorage">移动至内部存储</string>
+  <string name="downloadTorrentStorageLockedMessage">存储正忙，请稍后再试</string>
+  <string name="audio">音频处理</string>
+  <string name="audioOutput">音频输出 (VLC)</string>
+  <string name="codecs">编解码器（优先级）</string>
+  <string name="aoutAudioTrack" translatable="false">AudioTrack</string>
+  <string name="aoutOpensles" translatable="false">OpenSL ES</string>
+  <string name="systemCodecs" translatable="false">Android</string>
+  <string name="vlcCodecs" translatable="false">VLC</string>
+  <string name="shakeToContinue">摇一摇以继续收听</string>
+  <string name="shakeToContinueDescription">需在定时停止后120秒内摇动</string>
+  <string name="timerMode">定时器工作模式</string>
+  <string name="byDefault">默认</string>
+  <string name="motionTracking">运动追踪</string>
+  <string name="sleepTracking">睡眠追踪</string>
+  <string name="defaultModeDescription">播放时自动激活</string>
+  <string name="motionTrackingDescription">设备静止后自动激活</string>
+  <string name="sleepTrackingDescription">睡眠时自动激活 (基于运动传感器与光线传感器判断)</string>
+  <string name="volumeDown">暂时调低音量</string>
+  <string name="pause">暂停播放</string>
+  <string name="actionOnNotificationSound">通知避让行为</string>
+  <string name="enabled">已启用</string>
+  <string name="disabled">已禁用</string>
+  <string name="disableBatteryOptimization">电池优化</string>
+  <string name="disableBatteryOptimizationMessage">如果本应用在后台播放时意外停止，请禁用电池优化以尝试解决</string>
+
+  <string name="buy">购买</string>
+  <string name="premiumFeatures">高级功能</string>
+  <string name="premiumFeaturesSubtitle">一次购买，终身拥有</string>
+  <string name="premiumFeaturesNotice">该功能仅提供付费使用</string>
+  <string name="multipleTorrentsDownload">多种子同时下载</string>
+  <string name="downloadRateLimit">解除下载书籍时的速度限制</string>
+  <string name="equalizerAndAmplifier">均衡器与音量放大器</string>
+  <string name="homeScreenWidget">桌面小部件</string>
+  <string name="adFree">免除广告</string>
+  <string name="supportTheDevelopment">支持本项目发展</string>
+
+  <string name="select">选择</string>
+  <string name="internalStorage">内置存储</string>
+  <string name="accessDenied">访问被拒</string>
+  <string name="selectDirectoryError">噢！看来有什么事情出了错！</string>
+  <string name="torrentStorageAccessDeniedMessage">存储访问被拒，请检查您的SD卡</string>
+
+  <string name="nextStep">下一步</string>
+  <string name="done">完成</string>
+  <string name="playerControls">播放器控件</string>
+  <string name="tapChapterTip">单击封面 - 打开章节列表</string>
+  <string name="horizontalScrollCoverTip">滑动封面 - 微调播放进度</string>
+  <string name="doubleTapCenterTip">双击封面 - 播放/暂停</string>
+  <string name="longTapCoverTip">长按封面 - 添加书签</string>
+  <string name="doubleTapLeftRightTip">双击封面两侧 - 切换到上/下一章节</string>
+  <string name="chapterSwipeTip">左右滑动 - 切换到上/下一章节</string>
+</resources>
