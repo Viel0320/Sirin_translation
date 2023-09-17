@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="gdprConsent">GDPR Consent</string>
+
+  <string name="app_name">Sirin</string>
+  <string name="appTitle">Sirin Audiobook Player</string>
+  <string name="metadataServiceChannelName">Metadata service</string>
+  <string name="downloadServiceChannelName">Download service</string>
+  <string name="playerServiceChannelName">Audiobook player service</string>
+  
+  <string name="agreeCopyright">I will not use Sirin for copyright infringement</string>
+  <string name="agreeTos">I have read and agree to the terms of service</string>
+  <string name="accept">Continue</string>
+  <string name="quit">Quit</string>
+  <string name="allow">Allow</string>
+  <string name="doNotAskAgain">Don\'t ask again</string>
+  <string name="allFilesAccess">All files access</string>
+  <string name="allFilesAccessMessage">Since Android 11, apps have limited access to files. Some types of media files may not be visible.\n\nTherefore, it is recommended to allow access to manage all files.</string>
+  <string name="needStoragePermissions">Sirin needs permissions to access media files</string>
+  <string name="neverAskAgainStorage">You previously denied permissions to access media files. Now the only way to grant it is through app settings.</string>
+  <string name="neverAskAgainPhysicalActivity">You have previously denied Physical Activity access permission. Now the only way to grant it is through app settings.</string>
+  <string name="appSettings">App settings</string>
+  <string name="accessToPathDenied">Access to the path is denied</string>
+  <string name="audiobooksAdded">{0} audiobooks added!</string>
+  <string name="noBooksFound">No books found</string>
+
+  <string name="sponsored">Sponsored</string>
+  <string name="search_hint">Search in library</string>
+  <string name="library">Library</string>
+  <string name="onDevice">On device</string>
+  <string name="useWiFi">Download over Wi-Fi only</string>
+  <string name="storage">Storage</string>
+  <string name="about">About</string>
+  <string name="help">Help</string>
+  <string name="acknowledgements">Acknowledgements</string>
+  <string name="termsOfService">Terms of Service</string>
+  <string name="privacyPolicy">Privacy Policy</string>
+  <string name="openSourceLicenses">Open-Source Licenses</string>
+  <string name="favorites">Favorites</string>
+  <string-array name="sizeUnits">
+    <item>B</item>
+    <item>KB</item>
+    <item>MB</item>
+    <item>GB</item>
+    <item>TB</item>
+    <item>PB</item>
+    <item>EB</item>
+    <item>ZB</item>
+    <item>YB</item>
+  </string-array>
+  <plurals name="secondPlurals">
+    <item quantity="zero">seconds</item>
+    <item quantity="one">%d second</item>
+    <item quantity="other">%d seconds</item>
+  </plurals>
+  <string name="secondShort">s</string>
+  <string name="recents">Recents</string>
+  <string name="misc">Miscellaneous</string>
+  <string name="unknown">Unknown</string>
+  <string name="scan">Scan</string>
+  <string name="foldersToScan">Folders to scan</string>
+  <string name="scanFolder">Scan folder</string>
+  <string name="readingSpeed">Reading speed</string>
+  <string name="downloads">Downloads</string>
+  <string name="sdCard">SD Card</string>
+  <string name="audiobooks">Audiobooks</string>
+  <string name="freePattern">/{0}</string>
+  <string name="newAudiobook">New audiobook</string>
+  <string name="downloadTorrent">Download torrent</string>
+  <string name="mainWelcomeTitle">How to add books?</string>
+  <string name="mainWelcomeMessage1">Scan directory to load multiple audiobooks automatically</string>
+  <string name="mainWelcomeMessage2">Add new audiobook (single) manually</string>
+  <string name="mainWelcomeMessage3">Download torrent</string>
+
+  <string name="sleepTimer">Sleep timer</string>
+  <string name="none">None</string>
+  <string name="chapterEnd">Chapter end</string>
+  <string name="hoursShort">h</string>
+  <string name="minutesShort">min</string>
+  <string name="remember">Remember choice</string>
+  
+  <string name="search">Search</string>
+  <string name="chapters">Chapters</string>
+  <string name="notes">Notes</string>
+  <string name="noteAdded">Note was added</string>
+  <string name="notesInfoMessage">Long tap on cover art to add a note.</string>
+  <string name="equalizer">Equalizer</string>
+  <string name="amplifier">Amplifier</string>
+  <string name="audioOutputNotSupported">Audio output (VLC) OpenSL ES is not supported.</string>
+  <string name="tips">Tips</string>
+  <string name="addBookmark">Add bookmark</string>
+
+  <string name="notStartedStatus">Not started</string>
+  <string name="inProgressStatus">In progress</string>
+  <string name="finishedStatus">Finished</string>
+  <string name="markAs">Mark as...</string>
+  <string name="mergeBooks">Merge books</string>
+  <string name="splitBook">Split book</string>
+  <string name="xSelected">{0} selected</string>
+  <string name="save">Save</string>
+  <string name="create">Create</string>
+  <string name="edit">Edit</string>
+  <string name="sendFiles">Send files</string>
+  <string name="delete">Delete</string>
+  <string name="deleteFile">Delete files</string>
+  <string name="confirmDeleteTitle">Delete</string>
+  <string name="confirmDeleteFileTitle">Delete files</string>
+  <string name="confirmDeleteMessage">Are you sure you want to delete audiobook and all media files?</string>
+  <string name="confirmDeleteFileMessage">Are you sure you want to delete audiobook files?</string>
+  <string name="confirmMergeBooksMessage">Selected books ({0}) will be merged into one. Continue?</string>
+  <string name="confirmSplitBookMessage">Selected tracks ({0}) will be moved to the new book. Continue?</string>
+  
+  <string name="title">Title</string>
+  <string name="series">Series</string>
+  <string name="seriesPlural">Series</string>
+  <string name="author">Author</string>
+  <string name="authors">Authors</string>
+  <string name="genres">Genres</string>
+  <string name="narratedBy">Narrated By</string>
+  <string name="date">Date</string>
+  <string name="description">Description</string>
+  <string name="note">Note</string>
+  <string name="path">Path</string>
+
+  <string name="authorPublisher">Author/Publisher</string>
+  <string name="addToSeries">Add to series</string>
+  <string name="moveToSeries">Move to series</string>
+  <string name="removeFromSeries">Remove from series</string>
+  <string name="editSeries">Edit series</string>
+  <string name="createSeries">Create series</string>
+  <string name="newSeries">New series</string>
+  <string name="audiobookIsAdded">Audiobook is added</string>
+  <string name="deleteSeriesConfirmTitle">Delete series?</string>
+  <string name="deleteAudiobookConfirmTitle">Delete audiobook?</string>
+  <string name="deleteAudiobooksConfirmTitle">Delete audiobooks?</string>
+
+  <string name="cantOpenUrl">Can\'t open URL</string>
+  <string name="defaultErrorTitle">Oops!</string>
+  <string name="defaultErrorMessage">Something went wrong.</string>
+  <string name="cancel">Cancel</string>
+  <string name="continueAction">Continue</string>
+  <string name="tryAgain">Try Again</string>
+  <string name="yes">Yes</string>
+  <string name="ok">Ok</string>
+  
+  <string name="processingFiles">Processing files</string>
+  <string name="preparing">Preparing</string>
+  <string name="saving">Saving</string>
+  <string name="progressCountPattern">{0} of {1}</string>
+  
+  <string name="filesDeleted">Audiobook files deleted from device</string>
+  <string name="audiobookDeleted">Audiobook deleted</string>
+  <string name="checkingFiles">Checking files</string>
+  <string name="downloadingMetadata">Downloading metadata</string>
+  <string name="downloading">Downloading</string>
+  <string name="waitingForWiFi">Waiting for Wi-Fi</string>
+  <string name="finished">Finishing</string>
+  <string name="storageFull">Not enough storage</string>
+  <string name="paused">Paused</string>
+  <string name="downloadStarted">Download started</string>
+  <string name="addTorrentFile">Add torrent file</string>
+  <string name="removeFiles">Remove files</string>
+  <string name="confirmDeleteTorrentTitle">Delete torrent</string>
+  <string name="confirmDeleteTorrentMessage">Are you sure you want to stop download and remove torrent?</string>
+  <string name="cancelDownloadTitle">Cancel download</string>
+  <string name="cancelDownloadMessage">Are you sure you want to cancel download?</string>
+  <string name="cantFindTorrentFile">Sorry, can\'t find torrent file.</string>
+  <string name="torrentFileIsCorrupt">Torrent file is corrupt or has invalid format.</string>
+  <string name="waitingForTorrentMetadata">Waiting for torrent metadata.</string>
+
+  <string name="scanningStarted">Scanning started</string>
+  <string name="scanning">Scanning</string>
+  <string name="metadataEditorWelcomeMessage">Please add audio files for single book</string>
+  <string name="addAudioFiles">Add audio files</string>
+  <string name="cover">Cover</string>
+  <string name="tracks">Tracks</string>
+  <string name="sorting">Sorting</string>
+  <string name="view">View</string>
+  <string name="home">Home</string>
+  <string name="grid">Grid</string>
+  <string name="list">List</string>
+  <string name="showHeaders">Show headers</string>
+  <string name="findCover">Find cover</string>
+  <string name="allFilesAreInPlace">All files are in place</string>
+  <string name="movedFilesSearch">Search for moved files</string>
+  <string name="noAudioFilesFound">No audio files found</string>
+  <string name="tooManyAudioFilesFound">{0} audio files will be processed. This may take several minutes. Continue?</string>
+  <string name="torrentNoAudioFiles">This torrent doesn\'t contain audio files.</string>
+  <string name="audioFilesSetLocationMessage">Want to specify a different location for audio files?</string>
+  <string name="searchAudiobookOnDeviceTitle">Find files on device</string>
+  <string name="searchAudiobookOnDeviceMessage">Sirin can find the book on the device if the audio files have been moved to a different folder.</string>
+  <string name="selectFolderToSearch">Select folder to search</string>
+  <string name="deleteAudiobooksIfFilesAreMissing">Delete audiobooks if files are missing</string>
+  <string name="scanFoldersOnApplicationStartup">Scan folders on application startup</string>
+  <string-array name="trackSortOptions">
+    <item>Track number</item>
+    <item>Filename</item>
+    <item>Title</item>
+  </string-array>
+  <string name="saveToLibrary">Save audiobook to library?</string>
+  <string name="saveChanges">Save changes?</string>
+  <string name="noFilesFound">No files found</string>
+  <string name="couldNotMatchFiles">Couldn\'t match audio files</string>
+  <string name="backup">Backup</string>
+  <string name="backupScreenMessage">Create backup of your library. You can restore it on new device or after reinstall. Backup includes notes, audiobook covers and images. Audio files will not be copied.</string>
+  <string name="restore">Restore</string>
+  <string name="restoreComplete">Restore complete</string>
+  <string name="unpacking">Unpacking</string>
+  <string name="send">Send</string>
+  <string name="sendBackupFileMessage">Please send backup file to safe place.</string>
+  <string name="translate">Translate</string>
+  <string name="translateMessage">If you\'d like to help with translation to your language, please email me!</string>
+  <string name="recommend">Recommend</string>
+  <string name="recommendToFriends">Recommend to friends!</string>
+  <string name="recommendMessage">If you enjoy using this app, please support it by recommending to your friends!</string>
+  <string name="recommendTitle">Check out</string>
+  
+  <string name="metadataWebSearchSubtitle">Select a book and Sirin will recognize title, author, cover and other info.</string>
+  <string name="addDirectorySubtitle">Select the folder where your audiobooks are located</string>
+  <string name="newAudiobookSubtitle">Select the folder where your audiobook is located.</string>
+  
+  <string name="billingFlowErrorMessage">Please check your internet connection. Make sure the Play Store app is up to date and you\'re signed in with your account.</string>
+  <string name="purchasePendingWarningMessage">Your purchase is pending, waiting for payment to succeed.</string>
+
+  <string name="settings">Settings</string>
+  <string name="player">Player</string>
+  <string name="skipBackwardAmount">Skip backward amount</string>
+  <string name="skipForwardAmount">Skip forward amount</string>
+  <string name="skipAfterPauseAmount">Skip after pause amount</string>
+  <string name="showCoverOnLockScreen">Show cover on lock screen</string>
+  <string name="stopPlaybackOnClose">Stop playback on close</string>
+  <string name="keepPlaybackServiceActiveOnPause">Keep the playback service active on pause</string>
+  <string name="debugging">Debugging</string>
+  <string name="enableFileLogging">Enable file logging</string>
+  <string name="sendLogs">Send logs</string>
+  <string name="downloadToSdCard">Download to the SD card</string>
+  <string name="transferringFilesToSdCard">Transferring files to SD card</string>
+  <string name="transferringFilesToInternalStorage">Transferring files to Internal storage</string>
+  <string name="downloadTorrentStorageLockedMessage">The storage is in use. Please try again later.</string>
+  <string name="audio">Audio</string>
+  <string name="audioOutput">Audio output (VLC)</string>
+  <string name="codecs">Codecs (priority)</string>
+  <string name="aoutAudioTrack" translatable="false">AudioTrack</string>
+  <string name="aoutOpensles" translatable="false">OpenSL ES</string>
+  <string name="systemCodecs" translatable="false">Android</string>
+  <string name="vlcCodecs" translatable="false">VLC</string>
+  <string name="shakeToContinue">Shake to continue</string>
+  <string name="shakeToContinueDescription">Within 120 seconds after a timer stop</string>
+  <string name="timerMode">Timer operation mode</string>
+  <string name="byDefault">Default</string>
+  <string name="motionTracking">Motion tracking</string>
+  <string name="sleepTracking">Sleep tracking</string>
+  <string name="defaultModeDescription">The timer works as usual</string>
+  <string name="motionTrackingDescription">The timer is active when the device is stationary</string>
+  <string name="sleepTrackingDescription">The timer is active after going to bed (based on motion and light sensors)</string>
+  <string name="volumeDown">Volume down</string>
+  <string name="pause">Pause</string>
+  <string name="actionOnNotificationSound">Action on notification sound</string>
+  <string name="enabled">Enabled</string>
+  <string name="disabled">Disabled</string>
+  <string name="disableBatteryOptimization">Disable battery optimization</string>
+  <string name="disableBatteryOptimizationMessage">Disabling battery optimization can help if you have problems running in the background.</string>
+
+  <string name="buy">Buy</string>
+  <string name="premiumFeatures">Premium features</string>
+  <string name="premiumFeaturesSubtitle">One time purchase. Lifetime access.</string>
+  <string name="premiumFeaturesNotice">Feature is available in paid version</string>
+  <string name="multipleTorrentsDownload">Multiple torrents download</string>
+  <string name="downloadRateLimit">Download books faster without speed limit</string>
+  <string name="equalizerAndAmplifier">Equalizer and amplifier</string>
+  <string name="homeScreenWidget">Home screen widget</string>
+  <string name="adFree">Ad-free</string>
+  <string name="supportTheDevelopment">Support the development of this project</string>
+
+  <string name="select">Select</string>
+  <string name="internalStorage">Internal Storage</string>
+  <string name="accessDenied">Access denied</string>
+  <string name="selectDirectoryError">Oops! Something went wrong.</string>
+  <string name="torrentStorageAccessDeniedMessage">Storage access denied. Please check your SD Card.</string>
+
+  <string name="nextStep">Next</string>
+  <string name="done">Done</string>
+  <string name="playerControls">Player controls</string>
+  <string name="tapChapterTip">Tap to open chapter list</string>
+  <string name="horizontalScrollCoverTip">Seek</string>
+  <string name="doubleTapCenterTip">Double tap - play/pause</string>
+  <string name="longTapCoverTip">Long tap - add bookmark</string>
+  <string name="doubleTapLeftRightTip">Double tap - previous/next chapter</string>
+  <string name="chapterSwipeTip">Previous/next chapter</string>
+</resources>

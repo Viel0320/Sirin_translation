@@ -1,0 +1,32 @@
+#App name
+
+Sirin Audiobook Player
+
+---------------------------------------------------------------------------------------------------
+
+#Short description
+
+Audiobook player, listen audiobooks offline, mp3, m4b and other audiobooks
+
+---------------------------------------------------------------------------------------------------
+
+#Full description
+
+Hello! Thank you for your interest in my application. There are many audiobook players in the Play Market, but beauty is in eye of the beholder:) I decided to create an application that would satisfy me. I use it myself every day and I will be glad if Sirin becomes valuable for you as well. Enjoy your reading!
+
+Sirin is an audiobook player with built-in torrent client. Audiobook player that lets you listen audiobook free in many audio formats (mp3, Apple m4b, flac, ogg, opus, wma, wv, etc) and download audiobooks from torrent file or magnet link. It automatically analyzes audio files metadata tags (including chapters and cover art) and helps you manage your audiobook library.
+
+Audiobook player includes following features
+    * Listen audiobooks from your phone's local storage
+    * Support of most popular audiobook formats (mp3, mp4, Apple m4b, flac, ogg, opus, wma, wv and others)
+    * Full ID3 and MP4 (M4B) chapters support
+    * Grouping audiobooks into series is available for better library organization
+    * Manage your audiobook player library - add, delete and edit your audiobooks
+    * Use gestures for easy fast forward/rewind
+    * Essential settings like sleep timer and narration speed adjustment
+
+Built-in torrent client features
+    * Download audiobook from torrent file or magnet link
+    * Download on Wi-Fi only setting to preserve mobile data
+
+Sirin is an audiobook player that is simple to use. Download audiobooks, listen and enjoy!
